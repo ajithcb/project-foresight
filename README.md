@@ -1,7 +1,7 @@
 # 📈 Project FORESIGHT
 > AI-Powered Demand Forecasting & Supply Chain Triage Engine
 
-An enterprise-ready data science implementation built to optimize inventory availability, model localized velocity trends, and flag active portfolio capital liabilities for NorthBay Living [0.1.1, ID].
+An enterprise-ready data science implementation built to optimize inventory availability, model localized velocity trends, and flag active portfolio capital liabilities for NorthBay Living.
 
 📊 **Live Production Dashboard Hub**: [project-foresight-1.streamlit.app](https://streamlit.app)
 
