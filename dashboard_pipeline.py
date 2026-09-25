@@ -1,10 +1,10 @@
 import pandas as pd
 import os
 
-# 1. Dynamically establish relative repository pathways
+# Dynamically establish pathways for files sitting directly in the root repository folder
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-CLEANED_DATA_PATH = os.path.join(BASE_DIR, "..", "data", "foresight_cleaned.csv.csv")
-RISK_TRIAGE_PATH = os.path.join(BASE_DIR, "..", "data", "final_risk_triage.csv")
+CLEANED_DATA_PATH = os.path.join(BASE_DIR, "foresight_cleaned.csv.csv")
+RISK_TRIAGE_PATH = os.path.join(BASE_DIR, "final_risk_triage.csv")
 
 def get_filter_metadata():
     """Reads transactional files safely to establish dropdown ranges."""
